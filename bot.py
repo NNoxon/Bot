@@ -9,11 +9,11 @@ from supabase import create_client
 # -----------------------
 # Configuration
 # -----------------------
-TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
+TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8519493548:AAGJzqk9KtiPz51pBlJAYZNVRuoyG-5bhHY")
 SUPABASE_URL = os.environ.get("SUPABASE_URL")
 SUPABASE_KEY = os.environ.get("SUPABASE_KEY") 
 SUPABASE_BUCKET = os.environ.get("SUPABASE_BUCKET", "uploads")
-ADMIN_IDS = [123456789]  # Replace with your Telegram user ID
+ADMIN_IDS = [8464611503]  # Replace with your Telegram user ID
 
 # Setup
 logging.basicConfig(level=logging.INFO)
